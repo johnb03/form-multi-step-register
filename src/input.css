@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .step__point-focus{
+   @apply h-2 w-2 rounded-full bg-purpleLight mr-2;
+  }
+
+ .step__point{
+   @apply w-2 h-2 block bg-grey1 rounded-full mr-2   ;
+ }
+
+ .inputSelect{
+   @apply text-center hover:cursor-pointer hover:bg-purpleDark placeholder:hover:text-whiteColor  hover:border-transparnte;
+ }
+
+ .buttonEffect{
+  @apply  scale-100 transition-all ease-in-out  hover:scale-110;
+}
+
+
+
+}
+
+@layer base{
+  html{
+    @apply font-semibold
+  }
+  
+  form{
+     @apply -translate-x-[-24rem] transition-all;
+  } 
+
+ form  input[type="checkbox"]:checked + label{
+ @apply  bg-purpleDark border-purpleDark text-whiteColor; 
+} 
+
+
+form input[type="checkbox"]{
+  @apply opacity-0;
+}
+
+#formDateTopics li{
+  @apply w-60 text-whiteColor
+} 
+}
