@@ -449,7 +449,7 @@ html {
 }
 
 form {
-  --tw-translate-x: 24rem;
+  --tw-translate-x: 26rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -659,20 +659,12 @@ form input[type="checkbox"] {
   left: -350px;
 }
 
-.right-\[-100px\] {
-  right: -100px;
+.right-\[-250px\] {
+  right: -250px;
 }
 
 .top-\[460px\] {
   top: 460px;
-}
-
-.right-\[-200px\] {
-  right: -200px;
-}
-
-.right-\[-250px\] {
-  right: -250px;
 }
 
 .z-10 {
@@ -743,6 +735,10 @@ form input[type="checkbox"] {
   width: 18rem;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -751,8 +747,8 @@ form input[type="checkbox"] {
   width: 100%;
 }
 
-.w-\[100vw\] {
-  width: 100vw;
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .list-disc {
@@ -793,14 +789,6 @@ form input[type="checkbox"] {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
 }
 
 .rounded-3xl {
@@ -856,11 +844,6 @@ form input[type="checkbox"] {
 .bg-purpleLight {
   --tw-bg-opacity: 1;
   background-color: rgb(132 94 238 / var(--tw-bg-opacity));
-}
-
-.bg-purpleDark {
-  --tw-bg-opacity: 1;
-  background-color: rgb(101 44 209 / var(--tw-bg-opacity));
 }
 
 .p-2 {

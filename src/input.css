@@ -29,7 +29,7 @@
   }
   
   form{
-     @apply -translate-x-[-24rem] transition-all;
+     @apply -translate-x-[-26rem] transition-all;
   } 
 
  form  input[type="checkbox"]:checked + label{

@@ -39,7 +39,7 @@ btnStep1.addEventListener("click", () => {
     span__nE.innerHTML = `Debes colocar el Email`;
   } else {
     forM1.style.transform = "translateX(0px)";
-    forM2.style.transform = "translateX(0px)";
+    forM2.style.transform = "translateX(-70px)";
     focusTrue(spanPoint1);
     focusFalse(spanPoint2);
   }
@@ -71,7 +71,7 @@ btnStep2.addEventListener("click", () => {
     focusFalse(spanPoint3);
       forM1.style.transform = "translateX(-180px)";
       forM2.style.transform = "translateX(-350px)";
-      forM3.style.transform = "translateX(-400px)";
+      forM3.style.transform = "translateX(-470px)";
       
       
       datos();
